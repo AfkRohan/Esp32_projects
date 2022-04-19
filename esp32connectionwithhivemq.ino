@@ -1,8 +1,11 @@
+
+
+
 #include <WiFi.h>
 #include <PubSubClient.h>
  
-const char* ssid = "ADVANCETECH_DIR_4G";
-const char* password =  "12761487";
+const char* ssid = "Enter your wifi SSID";
+const char* password =  "Enter your wifi password";
 const char* mqttServer = "broker.mqttdashboard.com";
 const int mqttPort = 1883;
 const char* mqttUser = "rohan";
